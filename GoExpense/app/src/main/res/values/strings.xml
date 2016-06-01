@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GoExpense</string>
+
+    <string name="add_new_item">ADD NEW ITEM</string>
+    <string name="done">DONE</string>
+    <string name="clear_item">CLEAR</string>
+
+    <string name="expenditure_for">What is this expenditure for</string>
+    <string name="expenditure_amount">What is the expenditure amount</string>
+</resources>

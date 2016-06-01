@@ -72,7 +72,7 @@ public class AddDialog implements View.OnClickListener {
         if (TextUtils.isEmpty(type) || TextUtils.isEmpty(expenseString) || !isValidDouble(expenseString)) {
             Toast.makeText(mContext, "Are you sure you wanna exit without saving. Half info won't be saved.", Toast.LENGTH_LONG).show();
         } else {
-            callback.onAmountFilled(type + " : " + expenseString + " : " + getDisplayDatePattern(new Date()));
+            callback.onAmountFilled(expenseString + " :->\t" + type + " \n" + getDisplayDatePattern(new Date()) + "\n\n");
             dismissDialog();
         }
     }
